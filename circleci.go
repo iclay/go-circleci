@@ -29,7 +29,7 @@ type Logger interface {
 	Printf(fmt string, args ...interface{})
 }
 
-// APIError represents an error from CircleCI
+// APIError represents an error from CircleCI ci
 type APIError struct {
 	HTTPStatusCode int
 	Message        string
