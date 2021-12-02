@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     # working_directory: /go/src/github.com/jszwedko/go-circleci
-    working_directory: /go-circleci
+    working_directory: ~/go-circleci
     environment:
       TEST_RESULTS: /tmp/test-results
     docker:
